@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>ocarina.vanilla.research.organized</packageId>
+    <name>Vanilla Research Organized</name>
+    <author>ocarina</author>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <description>Reorganizes all research created by VE, uses loadFolders so there are no requirements.</description>
+</ModMetaData>

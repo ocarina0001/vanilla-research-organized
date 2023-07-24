@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]/prerequisites</xpath>
+        <value>
+            <li>Mortars</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]/prerequisites</xpath>
+        <value>
+            <li>Gunsmithing</li>
+        </value>
+    </Operation>
+
+</Patch>

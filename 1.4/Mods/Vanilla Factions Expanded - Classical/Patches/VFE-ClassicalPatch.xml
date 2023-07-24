@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="VFEC_HeavyShieldMaking" or defName="VFEC_LegionaryArmaments" or defName="VFEC_LegionnaireArmor" or defName="VFEC_CenturionArmor" or defName="VFEC_Scorpion"]</xpath>
+        <value>
+            <prerequisites>
+                <li>Smithing</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="VFEC_MeatDrying"]</xpath>
+        <value>
+            <prerequisites>
+                <li>Pemmican</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="VFEC_Mosaics"]</xpath>
+        <value>
+            <prerequisites>
+                <li>Stonecutting</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="VFEC_Togas"]</xpath>
+        <value>
+            <prerequisites>
+                <li>ComplexClothing</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="Smithing"]</xpath>
+        <value>
+            <prerequisites>
+                <li>VFEC_CraftingBench</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/prerequisites</xpath>
+        <value>
+            <li>VFEC_CenturionArmor</li>
+        </value>
+    </Operation>
+
+</Patch>

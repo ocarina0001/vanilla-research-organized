@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="IndustrialProps" or defName="DecalsProps"]</xpath>
+        <value>
+            <prerequisites>
+                <li>Smithing</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="VehicleProps" or defName="PowerProps"]</xpath>
+        <value>
+            <prerequisites>
+                <li>Electricity</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="MedievalProps"]</xpath>
+        <value>
+            <prerequisites>
+                <li>Stonecutting</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="SpaceshipProps" or defName="SpacerProps"]</xpath>
+        <value>
+            <prerequisites>
+                <li>ShipBasics</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+</Patch>

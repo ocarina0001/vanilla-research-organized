@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadFolders>
+    <v1.4>
+        <li>/</li>
+        <li>1.4</li>
+        <li IfModActive="oskarpotocki.vfe.classical">1.4/Mods/Vanilla Factions Expanded - Classical</li>
+        <li IfModActive="vanillaexpanded.vwe">1.4/Mods/Vanilla Weapons Expanded</li>
+    </v1.4>
+</LoadFolders>
