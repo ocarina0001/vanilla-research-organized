@@ -5,5 +5,8 @@
         <li>1.4</li>
         <li IfModActive="oskarpotocki.vfe.classical">1.4/Mods/Vanilla Factions Expanded - Classical</li>
         <li IfModActive="vanillaexpanded.vwe">1.4/Mods/Vanilla Weapons Expanded</li>
+        <li IfModActive="vanillaexpanded.vbookse">1.4/Mods/Vanilla Books Expanded</li>
+        <li IfModActive="vanillaexpanded.vfepropsanddecor">1.4/Mods/Vanilla Furniture Expanded - Props and Decor</li>
+        <li IfModActive="vanillaexpanded.vfesecurity">1.4/Mods/Vanilla Furniture Expanded - Security</li>
     </v1.4>
 </LoadFolders>
