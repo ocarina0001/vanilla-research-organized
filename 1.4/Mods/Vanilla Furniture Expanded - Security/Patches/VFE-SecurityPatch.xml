@@ -2,7 +2,7 @@
 <Patch>
 
     <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]/prerequisites/li[text="Mortars"]</xpath>
+        <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]/prerequisites/li</xpath>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
