@@ -2,11 +2,9 @@
 <Patch>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ResearchProjectDef[defName="VBE_Printing"]</xpath>
+        <xpath>Defs/ResearchProjectDef[defName="VBE_Printing"]/prerequisites</xpath>
         <value>
-            <prerequisites>
-                <li>Electricity</li>
-            </prerequisites>
+            <li>Electricity</li>
         </value>
     </Operation>
 
